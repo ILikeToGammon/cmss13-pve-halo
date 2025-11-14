@@ -748,6 +748,8 @@ I hope it's easier to tell what the heck this proc is even doing, unlike previou
 			M = /mob/living/carbon/xenomorph/soldier
 		if(XENO_CASTE_KING)
 			M = /mob/living/carbon/xenomorph/king
+		if(FLOOD_CASTE_COMBAT_FORM_HUMAN)
+			M = /mob/living/simple_animal/hostile/flood/combat_form/human
 	return M
 
 
